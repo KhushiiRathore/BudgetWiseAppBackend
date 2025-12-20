@@ -15,3 +15,5 @@ dist/
 # OS / Editor
 .DS_Store
 .vscode/
+
+uploads/
