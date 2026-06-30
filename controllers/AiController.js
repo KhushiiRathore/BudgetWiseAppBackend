@@ -46,8 +46,11 @@ User's Question: "${question}"
 Instructions:
 - If the user asks about a specific date or category, search the transactions above and answer precisely using that data.
 - If asking for general advice, analyze patterns and give practical suggestions.
-- Keep your answer short, clear, and friendly (3-5 sentences max).
-- Use ₹ symbol for amounts.
+- Keep your answer concise and easy to scan.
+- Use **bold** for all amounts and key numbers (e.g. **₹5000**).
+- Use relevant emojis naturally (💰 for money, 📊 for analysis, ⚠️ for warnings, ✅ for good habits, 🍔 for food category, etc.)
+- Break your answer into short lines or bullet points instead of one big paragraph.
+- Keep a warm, friendly, conversational tone — like a helpful friend, not a formal report.
         `;
 
         const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
